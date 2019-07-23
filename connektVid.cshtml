@@ -1,0 +1,31 @@
+﻿@page
+@model connektChatModel
+@{
+}
+
+    <div class="container-fluid">
+        <div class="row" style="text-align:center; color:#2c626e; padding:2rem;">
+            <h1>Video Chat with your Primary Care Provider Today</h1>
+        </div>
+
+        <div class="row" style="background-color:#add1d9; padding:2rem;">
+            <div class="col-lg-5 col-md-5 col-sm-12">
+                <p style="padding-left:10rem; padding-top:18rem;color:white;">Connekt is here to improve your level of communication through a personal Video Chat feature. You're just one click away from virtually seeing your doctor.</p>
+            </div>
+            <div class="col-lg-7 col-md-7 col-lg-12">
+                <img src="~/images/videoPics/videoChat.png" alt="Alternate Text" style="width:60rem;" />
+            </div>
+        </div>
+        <br />
+        <div class="row" style="text-align:center;">
+            <h2>Start a Video Chat with your Primary Care Provider Today</h2>
+            <hr />
+        </div>
+
+        <!-- Stream video via webcam -->
+        <div class="video-wrap row" style="padding-left:10rem;padding-top:2rem;width:100%;height:750px;">
+            <video id="video" playsinline autoplay style="width:100%;height:auto;"></video>
+        </div>
+    </div>
+
+    <script src="~/js/connektVideo.js"></script>                                                                                                                
